@@ -1,0 +1,12 @@
+h1 , p {
+    color: red;
+    border:10px solid green;
+}
+h1 {
+    height: 50px;
+    padding: 20px;
+}
+p {
+    width: 500px;
+    height: 100px;
+}

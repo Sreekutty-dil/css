@@ -1,0 +1,33 @@
+div {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    animation-name: move;
+    animation-duration: 3s;
+}
+#div1 {
+    background-color: #f00;
+    animation-duration: 3s;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+}
+#div2 {
+    background-color: teal;
+    animation-duration: 2s;
+    animation-delay: 3s;
+}
+#div3 {
+    background-color: green;
+    animation-duration: 1s;
+    animation-iteration-count: 3;
+}
+@keyframes move {
+    0% {
+        left: 0px;
+        border-radius: 0px;
+    }
+    100% {
+        left: 300px;
+        border-radius: 50px;
+    }
+}

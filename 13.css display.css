@@ -1,0 +1,11 @@
+img {
+    height: 100px;
+    width: 100px;
+    display: block;
+}
+li {
+    display: inline;
+    padding: 10px;
+    background-color: green;
+    color: white;
+}

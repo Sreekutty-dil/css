@@ -1,0 +1,17 @@
+/*
+* { (* universal selector)
+    color: red;
+} 
+ h1 {  (element selector) 
+    color: aqua;
+ } 
+  h1, h2, h3 {  (group selector)
+    color: blue;
+  } 
+   #head1 { (id selector)
+    color: green;
+   }
+   .para { (class selector)
+    color: red
+   } */
+    

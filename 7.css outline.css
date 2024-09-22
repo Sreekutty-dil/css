@@ -1,0 +1,12 @@
+h1 ,p {
+    border: 5px solid red;
+}
+h1 {
+    outline-style: solid;
+    outline-color: blue;
+    outline-width: 5px;
+    outline-offset: 10px;
+}
+p {
+    padding: 10px;
+}

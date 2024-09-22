@@ -1,0 +1,39 @@
+#div1 {
+    height: 100px;
+    width: 100px;
+    background-color: rebeccapurple;
+    transform: translate(20px, 50px);
+
+}
+#div2 {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(65, 173, 10);
+    transform: rotate(70deg);
+}
+#div3 {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(188, 89, 13);
+    transform: scale(0.5,2);
+}
+#div4 {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(186, 10, 136);
+    transform: scaleX(2);
+    transform: scaleY(2);
+}
+#div5 {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(186, 10, 25);
+   transform: skew(10deg);
+}
+#div6 {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(4, 87, 79);
+    transform: skewX(10deg);
+    transform: skewY(20deg);
+}

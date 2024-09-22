@@ -1,0 +1,37 @@
+#container {
+    width: 400px;
+    height: 300px;
+    border: 2px solid black;
+    margin: auto;
+}
+#div1 {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    margin: 3px;
+    position: relative;
+}
+#div2 {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    margin: 3px;
+}
+#div3 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(192, 11, 168);
+    margin: 3px;
+}
+#div4 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(12, 192, 27);
+    margin: 3px;
+    position: fixed;
+}
+h2 {
+    background-color: teal;
+    position: sticky;
+    top: 0;
+}

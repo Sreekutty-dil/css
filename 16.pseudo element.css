@@ -1,0 +1,23 @@
+p::first-letter {
+    background-color: aqua;
+    font-size: 25px;
+    font-style: italic;
+}
+p::first-line {
+    color: red;
+}
+h1::first-letter{
+    color: violet;
+}
+p::before {
+    content: "First letter: ";
+    color: blue;
+}
+p::after{
+    content: "First line: ";
+    color: rgb(0, 255, 55);
+
+}
+p::selection {
+    background-color: yellow;
+}
